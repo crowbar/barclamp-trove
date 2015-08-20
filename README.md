@@ -11,11 +11,20 @@ originally developed by the [Dell CloudEdge Solutions Team](http://dell.com/open
 
 ## Badges
 
-[![Build Status](https://travis-ci.org/crowbar/crowbar-core.svg?branch=master)](https://travis-ci.org/crowbar/crowbar-core)
-[![Code Climate](https://codeclimate.com/github/crowbar/crowbar-core/badges/gpa.svg)](https://codeclimate.com/github/crowbar/crowbar-core)
-[![Test Coverage](https://codeclimate.com/github/crowbar/crowbar-core/badges/coverage.svg)](https://codeclimate.com/github/crowbar/crowbar-core)
-[![Dependency Status](https://gemnasium.com/crowbar/crowbar-core.svg)](https://gemnasium.com/crowbar/crowbar-core)
+[![Build Status](https://travis-ci.org/crowbar/barclamp-trove.svg?branch=release/tex/master)](https://travis-ci.org/crowbar/barclamp-trove)
+[![Code Climate](https://codeclimate.com/github/crowbar/barclamp-trove/badges/gpa.svg)](https://codeclimate.com/github/crowbar/barclamp-trove)
+[![Test Coverage](https://codeclimate.com/github/crowbar/barclamp-trove/badges/coverage.svg)](https://codeclimate.com/github/crowbar/barclamp-trove)
+[![Dependency Status](https://gemnasium.com/crowbar/barclamp-trove.svg)](https://gemnasium.com/crowbar/barclamp-trove)
 [![Join the chat at https://gitter.im/crowbar/crowbar](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/crowbar/crowbar)
+
+## About this barclamp
+
+This barclamp uses a wrapper cookbook around an upstream/stackforge-style openstack-database-service cookbook. It also includes two additional cookbooks: openstack-common, openstack-identity which are required for their libraries/LWRPs, but no recipes are run from them.
+
+## Contributing
+
+This repository contains copies of upstream stackforge openstack cookbook repos from github.com/stackforge/cookbook-openstack-*
+for cookbooks: common, identity and database. In order to update the code to a new upstream version, just copy the upstream content over to our repo.
 
 ## Contact
 
